@@ -1,0 +1,5 @@
+list:
+  - name: "RX-8"
+    url: "/usedcar/search.php?STID=CS210610&SORT=2&CARC=MA_S010&GRDKC=MA_S010_F001_K013&OPTCD=REP0"
+  - name: "CLA 45 S"
+    url: "/usedcar/search.php?STID=CS210610&CARC=AM_S002&GRDKC=AM_S002_F002_K003&OPTCD=REP0"
