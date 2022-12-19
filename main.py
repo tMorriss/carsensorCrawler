@@ -1,3 +1,4 @@
+import os
 import re
 import requests
 import yaml
@@ -9,7 +10,7 @@ from db import DBConnector, CarData
 
 
 domain = 'https://www.carsensor.net'
-car_list_file = './carList.yaml'
+car_list_file = os.path.dirname(__file__) + '/carList.yaml'
 
 
 def crawling(cars: list[dict[str, str]], db: DBConnector):
