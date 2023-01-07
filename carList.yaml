@@ -9,3 +9,7 @@ list:
     url: "/usedcar/search.php?STID=CS210610&CARC=AM_S006&GRDKC=AM_S006_F001_K002*AM_S006_F001_K003&YMIN=2019&OPTCD=REP0"
   - name: "C63 S カブリオレ"
     url: "/usedcar/search.php?STID=CS210610&CARC=AM_S007&GRDKC=AM_S007_F001_K002&YMIN=2019&OPTCD=REP0"
+  - name: "E43"
+    url: "/usedcar/search.php?STID=CS210610&CARC=AM_S010&GRDKC=AM_S010_F002_K004&OPTCD=REP0"
+  - name: "E53"
+    url: "/usedcar/bAM/s010/optREP0/index.html?GRDKC=AM_S010_F002_K008&SORT=2"
