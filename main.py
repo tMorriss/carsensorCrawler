@@ -29,6 +29,8 @@ def crawling(cars: list[dict[str, str]], db: DBConnector):
                 res.close()
 
                 car_list = soup.find('div', id='carList')
+                if car_list is None:
+                    continue
                 for cassette_wrap in car_list.find_all('div', class_='cassetteWrap'):
                     price_context = cassette_wrap.find('p', class_='basePrice__content')
                     price_big_text = price_context.find('span', class_='basePrice__mainPriceNum')
