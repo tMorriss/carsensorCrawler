@@ -20,7 +20,7 @@ def crawling(cars: list[dict[str, str]], db: DBConnector):
         db.delete(today)
         for car in cars:
             url = domain + car['url']
-            while (True):
+            while (True):  # ページのループ
                 res = requests.get(url.replace('index.html', url))
                 if (res.status_code != 200):
                     break
@@ -30,7 +30,7 @@ def crawling(cars: list[dict[str, str]], db: DBConnector):
 
                 car_list = soup.find('div', id='carList')
                 if car_list is None:
-                    continue
+                    break
                 for cassette_wrap in car_list.find_all('div', class_='cassetteWrap'):
                     price_context = cassette_wrap.find('p', class_='basePrice__content')
                     price_big_text = price_context.find('span', class_='basePrice__mainPriceNum')
