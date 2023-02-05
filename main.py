@@ -15,9 +15,9 @@ if __name__ == '__main__':
     with open(car_list_file, 'r') as yml:
         cars: list[dict[str, str]] = yaml.safe_load(yml)['list']
 
-    data: list[CarData] = crawling(cars=cars)
-
     try:
+        data: list[CarData] = crawling(cars=cars)
+
         db = DBConnector(secrets.DB_HOST, secrets.DB_USER, secrets.DB_PASS, secrets.DB_NAME)
         db.initialze()
         db.delete(today)
