@@ -13,3 +13,7 @@ list:
     url: "/usedcar/search.php?STID=CS210610&CARC=AM_S010&GRDKC=AM_S010_F002_K004&OPTCD=REP0"
   - name: "E53"
     url: "/usedcar/bAM/s010/optREP0/index.html?GRDKC=AM_S010_F002_K008&SORT=2"
+  - name: "320i Mスポーツ"
+    url: "/usedcar/search.php?STID=CS210610&CARC=BM_S011&GRDKC=BM_S011_F005_K007&AR=0&OPTCD=REP0"
+  - name: "330i Mスポーツ"
+    url: "/usedcar/search.php?STID=CS210610&CARC=BM_S011&GRDKC=BM_S011_F005_K024&AR=0&OPTCD=REP0"
