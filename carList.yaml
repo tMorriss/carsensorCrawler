@@ -1,6 +1,4 @@
 list:
-  - name: "RX-8"
-    url: "/usedcar/search.php?STID=CS210610&SORT=2&CARC=MA_S010&GRDKC=MA_S010_F001_K013&OPTCD=REP0"
   - name: "CLA 45 S"
     url: "/usedcar/search.php?STID=CS210610&CARC=AM_S002&GRDKC=AM_S002_F002_K003&OPTCD=REP0"
   - name: "C63 セダン"
@@ -17,3 +15,7 @@ list:
     url: "/usedcar/search.php?STID=CS210610&CARC=BM_S011&GRDKC=BM_S011_F005_K007&AR=0&OPTCD=REP0"
   - name: "330i Mスポーツ"
     url: "/usedcar/search.php?STID=CS210610&CARC=BM_S011&GRDKC=BM_S011_F005_K024&AR=0&OPTCD=REP0"
+  - name: "GT43"
+    url: "/usedcar/search.php?STID=CS210610&CARC=AM_S019&GRDKC=AM_S019_F002_K011"
+  - name: "GT63"
+    url: "/usedcar/search.php?STID=CS210610&CARC=AM_S019&GRDKC=AM_S019_F002_K010*AM_S019_F002_K012*AM_S019_F002_K013"
