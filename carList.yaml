@@ -20,4 +20,4 @@ list:
   - name: "GT63"
     url: "/usedcar/search.php?STID=CS210610&CARC=AM_S019&GRDKC=AM_S019_F002_K010*AM_S019_F002_K012*AM_S019_F002_K013"
   - name: "M3 MT Final Edition"
-    url: "https://www.carsensor.net/usedcar/search.php?STID=CS210610&CARC=BM_S033&GRDKC=BM_S033_F003_K016&AR=0"
+    url: "/usedcar/search.php?STID=CS210610&CARC=BM_S033&GRDKC=BM_S033_F003_K016&AR=0"
