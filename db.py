@@ -9,7 +9,7 @@ class DBConnector:
     def __init__(self, host: str, user: str, pw: str, name: str) -> None:
         # sql接続
         self.con = connector.connect(
-            host=host, port=3306, user=user, password=pw, database=name)
+            host=host, port=3306, user=user, password=pw, database=name, collation='utf8mb4_general_ci')
 
     def disconnect(self) -> None:
         self.con.close()
